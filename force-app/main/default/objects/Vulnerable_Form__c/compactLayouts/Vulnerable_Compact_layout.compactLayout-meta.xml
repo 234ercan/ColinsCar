@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Vulnerable_Compact_layout</fullName>
+    <fields>Name</fields>
+    <fields>Customer_Name__c</fields>
+    <fields>Branch__c</fields>
+    <fields>Consent_Given__c</fields>
+    <label>Vulnerable Compact layout</label>
+</CompactLayout>

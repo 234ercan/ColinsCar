@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ConsentMustBeGiven</fullName>
+    <active>true</active>
+    <errorConditionFormula>!Consent_Given__c</errorConditionFormula>
+    <errorDisplayField>Consent_Given__c</errorDisplayField>
+    <errorMessage>Consent of the customer must be given to share any details of the vulnerability with the finance institution</errorMessage>
+</ValidationRule>
