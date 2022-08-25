@@ -1,18 +1,13 @@
-# Salesforce DX Project: Next Steps
+<h1>Interview Brief</h1>
+<h1>Salesforce Developer</h1>
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+<p>Colin’s Cars is a Nationwide car dealership selling quality used cars. The company is an FCA regulated company, which sells financial products and service to its customers. </p>
+<p>To be fully compliant with FCA regulations Colin’s cars must have a process in place to ensure its customers are treated fairly. </p>
+<p>One of the processes in place is, the identification of vulnerable customers. A customer may be identified as vulnerable if they meet one or more characteristics
+e.g. A customer who has suffered a recent bereavement could be identified as being vulnerable. </p>
+<p>If a sales exec identifies or suspects a customer is vulnerable.  A vulnerable customer form needs to be completed and sent to head office, where it can be processed centrally. These customers may require additional support when making financial decisions.</p>
+<p>The current process is a paper-based solution, where details of the customer, sales executive, branch, and the nature of the vulnerability are recorded. This process also includes gathering the consent of the customer to share any details of the vulnerability with the finance institution, as part of the application process.</p>
 
-## How Do You Plan to Deploy Your Changes?
+<h4>To make the process more efficient Head office require an online solution to log these details from any customer interactions. </h4>
+<h4>The aim of this is to reduce the rekey required, and therefore errors.</h4>
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
-
-## Configure Your Salesforce DX Project
-
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
-
-## Read All About It
-
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
