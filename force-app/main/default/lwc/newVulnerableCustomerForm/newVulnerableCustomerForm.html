@@ -1,4 +1,21 @@
 <template>
-  <lightning-input type="text" name="txtFname" label="Enter Name" onchange={handleChange} value={regRecord.fName}></lightning-input>
-  <lightning-button variant="success" label="Submit" title="Submit" onclick={saveRecord} class="slds-var-m-around_medium"></lightning-button>
+<lightning-card title="Vulnerable Customer Form">
+  <lightning-card>
+    <lightning-input type="text" name="txtFname" label="  Enter Name" placeholder="Enter Name" onchange={handleChange} value={regRecord.fName}></lightning-input>
+  </lightning-card>
+  <lightning-card>
+    <lightning-input type="text" label=" Account Name" placeholder="search Account by entering Name..." onchange={handleSearch} value={regAccount.accName}></lightning-input>
+    <br>
+    <ul>
+        <template for:each={accountList.data} for:item="account">
+            <li key={account.id}>{account.Name}</li>
+        </template>
+    </ul>
+</lightning-card>
+<lightning-record-edit-form object-api-name="Custom_Object__c" onsuccess={handleSuccess}>
+  <lightning-input-field field-name='Account__c' onchange={handleLookupFieldChange}></lightning-input-field>
+</lightning-record-edit-form>
+<lightning-button variant="success" label="Submit" title="Submit" onclick={saveRecord} class="slds-var-m-around_medium"></lightning-button>
+</lightning-card>
+  
 </template>
