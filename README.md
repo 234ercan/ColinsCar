@@ -10,4 +10,4 @@ e.g. A customer who has suffered a recent bereavement could be identified as bei
 
 <h4>To make the process more efficient Head office require an online solution to log these details from any customer interactions. </h4>
 <h4>The aim of this is to reduce the rekey required, and therefore errors.</h4>
-
+<h4>Ercan</h4>
